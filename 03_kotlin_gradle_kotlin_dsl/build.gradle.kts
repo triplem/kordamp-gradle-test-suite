@@ -60,8 +60,9 @@ config {
 
     quality {
         detekt {
-            buildUponDefaultConfig = true
-            failFast = true
+            ignoreFailures = false
+            parallel = false
+            buildUponDefaultConfig = false
         }
 
         sonar {
